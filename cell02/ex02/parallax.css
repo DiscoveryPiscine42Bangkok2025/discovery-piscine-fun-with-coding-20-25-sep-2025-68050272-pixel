@@ -1,0 +1,47 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.parallax-container {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This is the key for the parallax effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.parallax-image-1 {
+    background-image: url('https://becommon.co/wp-content/uploads/2021/11/vlcsnap-2021-03-30-03h52m15s721.png');
+}
+
+.parallax-image-2 {
+    background-image: url('https://tse2.mm.bing.net/th/id/OIP.zjrH-Jjmt_NlbLxyCVDQDAHaGl?w=498&h=443&rs=1&pid=ImgDetMain&o=7&rm=3');
+}
+
+.message {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.message h1, .message h2 {
+    margin: 0;
+}
+
+.content-block {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding: 20px;
+}
